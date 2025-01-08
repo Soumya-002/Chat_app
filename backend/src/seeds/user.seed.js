@@ -3,7 +3,7 @@ import { connectDB } from "../lib/db.js";
 import User from "../models/user.model.js";
 
 config();
-
+// Create some random users
 const seedUsers = [
   // Female Users
   {
